@@ -10,7 +10,10 @@ public class Digits
     //represents num
     public Digits (int num)
     {
-        //implemented in part (a)
+        int last = num%10;
+        for (int i=10; i<num*10; i = i*10){
+            String numStr = ""+num;
+        }
     }
     public boolean isStrictlyIncreasing()
     {
